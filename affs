@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOMA STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🛒 NOMA STORE</h1>
+        <p>A Loja Focada Em Itens De Alguns Jogos Do Roblox</p>
+    </header>
+
+    <main>
+        <section class="produtos">
+            <h2>Itens Disponíveis</h2>
+            <div class="produto" id="produto1">
+                <h3>Item 1</h3>
+                <p>Descrição do item 1</p>
+                <button onclick="comprar('Item 1')">Comprar</button>
+            </div>
+            <div class="produto" id="produto2">
+                <h3>Item 2</h3>
+                <p>Descrição do item 2</p>
+                <button onclick="comprar('Item 2')">Comprar</button>
+            </div>
+            <!-- Adiciona mais produtos aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 NOMA STORE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
